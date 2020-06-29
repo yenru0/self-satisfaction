@@ -1,0 +1,64 @@
+{
+  "elements": [
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "ms"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "sec"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "min"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "hour"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "day"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "xms"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "xsec"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "xmin"
+    },
+    {
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "xhr"
+    },{
+      "title": "기말고사",
+      "maxRemain": 3000000000,
+      "finish": "2020-07-29-10-00-00",
+      "display_fmt": "xday"
+    }
+  ],
+  "background_color": "255 255 255 50"
+}
