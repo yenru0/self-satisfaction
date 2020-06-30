@@ -13,6 +13,7 @@ class Main(QMainWindow, Ui_MainWindow):
     def __init__(self, preference, parent=None):
         super().__init__(parent)
         self.setupUi(self)
+        self.setWindowTitle("self-satisfaction")
 
         self.setMouseTracking(True)
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
@@ -49,6 +50,7 @@ class Main(QMainWindow, Ui_MainWindow):
             print(len(self.interestings))
             t = Interesting()
             t.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.CustomizeWindowHint)
+            t.setWindowTitle("lucifer")
             t.show()
             self.interestings.append(t)
 
