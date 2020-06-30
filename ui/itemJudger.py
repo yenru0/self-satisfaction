@@ -48,6 +48,10 @@ class ItemJudger(QWidget, Ui_judger):
     def updateRemainer(self):
         # var for calculating progressBar
         pt = (self.finish - datetime.datetime.now()) / datetime.timedelta(seconds=1)
+        if pt < 0:
+            pt = 0
+        elif pt > self.maxRemain:
+            pt = self.maxRemain
 
         if self.display_fmt in ("ms", "xms"):
             t = int((self.finish - datetime.datetime.now()) / datetime.timedelta(milliseconds=1))
@@ -61,6 +65,8 @@ class ItemJudger(QWidget, Ui_judger):
             t = int((self.finish - datetime.datetime.now()) / datetime.timedelta(days=1))
         else:
             t = int((self.finish - datetime.datetime.now()) / datetime.timedelta(milliseconds=1))
+
+
         if self.display_fmt in ("xms", "xsec", "xmin", "xhr", "xday"):
             t = format(t, "X")
         else:
